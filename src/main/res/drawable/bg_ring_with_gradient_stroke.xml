@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--ring这个形状有五个特殊的属性
+ android:innerRadius 圆环的内圆半径
+ android:innerRadiusRation内半径占整个drawable的宽高比例，默认值为9，如果为n，那么内半径=宽度/n
+ android:thickness 圆环的厚度
+ android:thicknessRadio 厚度占整个Drawable宽度的比例，默认值为3，如果为n，那么厚度=宽度/n
+
+-->
+<shape
+    android:thicknessRatio="9"
+    android:innerRadiusRatio="3"
+    android:useLevel="false"
+    android:shape="ring"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <!--android:type linear线性渐变，radial径向渐变，sweep扫描下渐变-->
+
+    <gradient
+        android:endColor="#2F90BD"
+        android:startColor="#FFFFFF"
+        android:type="sweep"/>
+    <stroke android:color="@android:color/black"
+            android:width="1dp"/>
+
+
+
+</shape>

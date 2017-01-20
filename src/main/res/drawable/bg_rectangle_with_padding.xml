@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape
+    android:shape="rectangle"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <!--这个标签标识纯色填充，通过 android:color 即可指定shape中的填充颜色-->
+    <solid android:color="#2F90BD"/>
+    <!--这个表示空白，但是它表示的不是shape的空白，而是包含它的view的空白-->
+    <padding
+        android:left="10dp"
+        android:right="10dp"
+        android:top="10dp"
+        android:bottom="10dp"/>
+
+
+</shape>
